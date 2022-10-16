@@ -411,6 +411,17 @@ nav ul li a {
   height: auto;
 }
 
+#about .about-grid @media all and (max-width: 670px){
+  .container{
+    width: 80%;
+  }
+  .grid{
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: min-content;
+    grid-gap: 30px;
+  }
+}
+
 #about .about-grid @media all and (min-width: 670px){
   .container{
     width: 80%;
@@ -424,7 +435,7 @@ nav ul li a {
 
 #about .about-grid @media all and (min-width: 900px){
   .grid{
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
   }
 }
