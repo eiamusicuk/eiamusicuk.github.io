@@ -79,7 +79,7 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ['... "ethereal powerhouse"', '... "cosmic butterfly"', '... "transcendental bliss"'],
+      strings: ['... ethereal powerhouse', '... cosmic butterfly', '... transcendental bliss'],
       typeSpeed: 50,
       loop: true,
     });
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
   $(function() {
     typed2.typed({
-      strings: ['"Kate Bush meets London Grammar"', '"A delicious mix between old and new"', '"An intuitive connection to the Earth"'],
+      strings: ['"Kate Bush meets London Grammar" - Stripped FM', '"The songbird of our generation" - Love Shack Ldn'],
       typeSpeed: 50,
       loop: true,
     });
