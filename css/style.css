@@ -378,10 +378,16 @@ nav ul li a {
 #about .about-grid .grid{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: auto;
+  grid-template-rows: repeat(2, auto);
   grid-gap: 20px;
-
 }
+
+@media screen and (max-width: 414px) {
+       .grid{
+          grid-template-columns: 1fr;
+          grid-template-rows: auto;
+        }
+      }
 
 #about .about-grid .item{
   border: 10px solid white;
@@ -411,34 +417,6 @@ nav ul li a {
   height: auto;
 }
 
-#about .about-grid @media all and (max-width: 670px){
-  .container{
-    width: 80%;
-  }
-  .grid{
-    grid-template-columns: repeat(1, 1fr);
-    grid-auto-rows: min-content;
-    grid-gap: 30px;
-  }
-}
-
-#about .about-grid @media all and (min-width: 670px){
-  .container{
-    width: 80%;
-  }
-  .grid{
-    grid-template-columns: repeat(2, 1fr);
-    grid-auto-rows: min-content;
-    grid-gap: 30px;
-  }
-}
-
-#about .about-grid @media all and (min-width: 900px){
-  .grid{
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-  }
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*   Services
