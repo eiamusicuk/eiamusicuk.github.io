@@ -277,7 +277,8 @@ nav ul li a {
 
 #header {
   background: url("../images/title4.png") repeat scroll center center / cover;
- height: 100vh;
+ /*height: 100vh;*/
+  height: auto;
   width: 100%;
 }
 
@@ -498,6 +499,8 @@ nav ul li a {
   background: #FFFFFF;
   /*background: url("../images/orange1.jpg") repeat scroll center center / cover;*/
   opacity: 1;
+  width: 100%;
+  height: auto;
   padding-bottom: 50px;
 }
 
