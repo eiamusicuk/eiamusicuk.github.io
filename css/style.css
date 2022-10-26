@@ -13,9 +13,10 @@ body {
   background: #ffffff;
   color: #898989;
   font-family: 'Poppins', helvetica;
+  /*font-family: Didot, serif;*/
   font-size: 15px;
   font-weight: 300;
-  line-height: 20px;
+  line-height: 25px;
   letter-spacing: 0.02em;
   overflow-x: hidden;
   margin: 0 auto;
@@ -350,7 +351,7 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: Garamond, serif;
   max-width: 80%;
   font-size: 42px;
   line-height: 48px;
